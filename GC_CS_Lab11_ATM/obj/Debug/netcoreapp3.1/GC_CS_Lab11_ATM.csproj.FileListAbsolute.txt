@@ -1,0 +1,11 @@
+C:\Users\coronele\source\repos\GC_CS_Lab11_ATM\GC_CS_Lab11_ATM\bin\Debug\netcoreapp3.1\GC_CS_Lab11_ATM.exe
+C:\Users\coronele\source\repos\GC_CS_Lab11_ATM\GC_CS_Lab11_ATM\bin\Debug\netcoreapp3.1\GC_CS_Lab11_ATM.deps.json
+C:\Users\coronele\source\repos\GC_CS_Lab11_ATM\GC_CS_Lab11_ATM\bin\Debug\netcoreapp3.1\GC_CS_Lab11_ATM.runtimeconfig.json
+C:\Users\coronele\source\repos\GC_CS_Lab11_ATM\GC_CS_Lab11_ATM\bin\Debug\netcoreapp3.1\GC_CS_Lab11_ATM.runtimeconfig.dev.json
+C:\Users\coronele\source\repos\GC_CS_Lab11_ATM\GC_CS_Lab11_ATM\bin\Debug\netcoreapp3.1\GC_CS_Lab11_ATM.dll
+C:\Users\coronele\source\repos\GC_CS_Lab11_ATM\GC_CS_Lab11_ATM\bin\Debug\netcoreapp3.1\GC_CS_Lab11_ATM.pdb
+C:\Users\coronele\source\repos\GC_CS_Lab11_ATM\GC_CS_Lab11_ATM\obj\Debug\netcoreapp3.1\GC_CS_Lab11_ATM.csprojAssemblyReference.cache
+C:\Users\coronele\source\repos\GC_CS_Lab11_ATM\GC_CS_Lab11_ATM\obj\Debug\netcoreapp3.1\GC_CS_Lab11_ATM.AssemblyInfoInputs.cache
+C:\Users\coronele\source\repos\GC_CS_Lab11_ATM\GC_CS_Lab11_ATM\obj\Debug\netcoreapp3.1\GC_CS_Lab11_ATM.AssemblyInfo.cs
+C:\Users\coronele\source\repos\GC_CS_Lab11_ATM\GC_CS_Lab11_ATM\obj\Debug\netcoreapp3.1\GC_CS_Lab11_ATM.dll
+C:\Users\coronele\source\repos\GC_CS_Lab11_ATM\GC_CS_Lab11_ATM\obj\Debug\netcoreapp3.1\GC_CS_Lab11_ATM.pdb
