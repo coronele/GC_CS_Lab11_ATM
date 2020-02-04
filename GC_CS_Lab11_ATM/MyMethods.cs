@@ -34,6 +34,7 @@ namespace GC_CS_Lab11_ATM
 
         public static string YN_UserChoice(string msg, string errorMsg)
         {
+            // Validates yes or no input using "y" or "n"
             SetOutputColor();
             string userOption = GetUserInput(msg).ToLower();
             // check if "Y" input is valid
@@ -87,5 +88,4 @@ namespace GC_CS_Lab11_ATM
             Console.BackgroundColor = ConsoleColor.Black;
         }
     }
-
 }

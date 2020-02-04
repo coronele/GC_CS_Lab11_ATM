@@ -8,18 +8,20 @@ namespace GC_CS_Lab11_ATM
     class ATM
     {
         public static bool isLoggedIn = false;
+        
         public static void Register(List<Account> regNewAccount, string username, string password)
         {
+            // Used for in-program generation of accounts
             regNewAccount.Add(new Account(username, password, 0));
         }
 
         public static void Register(List<Account> regNewAccount)
         {
+            // Creates a new account with prompts
             string username = GetUserInput("Please enter a username");
             string password = GetUserInput("Please enter a password");
             regNewAccount.Add(new Account(username, password, 0));
         }
-
 
         public static int Login(string enterUsername, string enterPassword, int enterCurrentAccount, List<Account> enterAccountList)
         {
@@ -44,6 +46,8 @@ namespace GC_CS_Lab11_ATM
 
         public static int Login(int enterCurrentAccount, List<Account> enterAccountList)
         {
+            // Actual interactive Login method. -1 is logged out, List index is the "account number"
+            // User gets 3 tries at the password before dropping back to the main menu
             if (enterCurrentAccount != -1)
             {
                 Console.WriteLine("There is someone already logged in");
@@ -91,6 +95,7 @@ namespace GC_CS_Lab11_ATM
 
         public static int Logout(int exitCurrentAccount)
         {
+            // Sets the current account to -1 or logged off
             if (exitCurrentAccount == -1)
             {
                 return exitCurrentAccount;
@@ -106,6 +111,7 @@ namespace GC_CS_Lab11_ATM
 
         public static int CheckBalance(int userCurrentAccount, List<Account> listOfAccounts)
         {
+            // Checks balance of the currently logged in account
             if (userCurrentAccount == -1)
             {
                 SetOutputColor();
@@ -148,6 +154,7 @@ namespace GC_CS_Lab11_ATM
 
         public static int Deposit(int userCurrentAccount, List<Account> listOfAccounts)
         {
+            // Interactive deposit method.  User supplies amount.
             if (userCurrentAccount == -1)
             {
                 SetOutputColor();
@@ -203,6 +210,7 @@ namespace GC_CS_Lab11_ATM
 
         public static int Withdraw(int userCurrentAccount, List<Account> listOfAccounts)
         {
+            // Interactive withdrawl method.  User supplies amount. Withdrawl fails if greater than the current balance.
             if (userCurrentAccount == -1)
             {
                 SetOutputColor();
@@ -236,6 +244,7 @@ namespace GC_CS_Lab11_ATM
 
         public static void BuildABank (List<Account> buildAccounts)
         {
+            // Simply builds banks accounts for examples.
             buildAccounts.Add(new Account("E_Coronel", "password1", 15400));
             buildAccounts.Add(new Account("M_Magoo", "password2", 252010));
             buildAccounts.Add(new Account("JohnRay", "password3", 3450));
